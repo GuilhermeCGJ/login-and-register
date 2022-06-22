@@ -14,18 +14,26 @@
 
 .form {
   width: 100vw;
-  height: 800px;
+  height: 80vh;
   display: flex;
-  flex-direction: row;
-  align-self: flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#header {
+  background-color: rgb(135, 163, 142);
+  border-style: inset;
 }
 
 #login-page {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
   border-style: solid;
-  max-width: 500px;
+  max-width: 700px;
+  width: 50vw;
+  height: fit-content;
   background-color: rgba(102, 138, 107, 0.596);
 }
 
@@ -38,6 +46,5 @@ h1 {
     background-image: url(../images/bg/Bg\ Cell.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-origin: initial;
   }
 }
